@@ -8,6 +8,6 @@ class Rafal extends Controller
 {
     public function index()
     {
-        dd('hello');
+        return view('Rafal.index');
     }
 }

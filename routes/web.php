@@ -6,4 +6,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/rafal', [\App\Http\Controllers\Rafal::class, 'index']);
+Route::get('/dashboard', [\App\Http\Controllers\Rafal::class, 'index']);
