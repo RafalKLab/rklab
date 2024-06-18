@@ -10,4 +10,9 @@ class Rafal extends Controller
     {
         return view('Rafal.index');
     }
+
+    public function roll()
+    {
+        return view('Rafal.roll');
+    }
 }

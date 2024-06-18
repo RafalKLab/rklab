@@ -7,3 +7,4 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', [\App\Http\Controllers\Rafal::class, 'index']);
+Route::get('/roll', [\App\Http\Controllers\Rafal::class, 'roll']);
