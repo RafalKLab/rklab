@@ -31,4 +31,9 @@ class Rafal extends Controller
 
         return view('Rafal.roll', compact('amount'));
     }
+
+    public function demo1()
+    {
+        return view('demo1');
+    }
 }
