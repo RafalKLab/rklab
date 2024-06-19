@@ -77,7 +77,7 @@
             </div>
         </div>
     </nav>
-    <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/images/section-10.jpg">
+    <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="{{ asset('/demo2/assets/images/section-10.jpg') }}">
         <div class="titan-caption">
             <div class="caption-content">
                 <div class="font-alt mb-30 titan-title-size-1">Hello &amp; welcome</div>
@@ -154,7 +154,7 @@
                 </div>
             </div>
         </section>
-        <section class="module bg-dark-60" data-background="assets/images/section-6.jpg">
+        <section class="module bg-dark-60" data-background="{{ asset('/demo2/assets/images/section-6.jpg') }}">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -367,7 +367,7 @@
                 </div>
             </div>
         </section>
-        <section class="module bg-dark-60" data-background="assets/images/section-3.jpg">
+        <section class="module bg-dark-60" data-background="{{ asset('/demo2/assets/images/section-3.jpg') }}">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
@@ -485,7 +485,7 @@
                 </div>
             </div>
         </section>
-        <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/testimonial_bg.jpg">
+        <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="{{ asset('/demo2/assets/images/testimonial_bg.jpg') }}">
             <div class="testimonials-slider pt-140 pb-140">
                 <ul class="slides">
                     <li>

@@ -41,4 +41,9 @@ class Rafal extends Controller
     {
         return view('demo2');
     }
+
+    public function demo3()
+    {
+        return view('demo3');
+    }
 }
