@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e8c3c14ff33b199b4a0838993eb8423",
+    "content-hash": "6b78b39e1a7388accea780f2d4eb7658",
     "packages": [
         {
             "name": "brick/math",
@@ -3106,6 +3106,54 @@
                 }
             ],
             "time": "2024-04-27T21:32:50+00:00"
+        },
+        {
+            "name": "rklab/crud",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RafalKLab/crud.git",
+                "reference": "a4d23534bbbaaf61e46db507a16dc48e8e8caa59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RafalKLab/crud/zipball/a4d23534bbbaaf61e46db507a16dc48e8e8caa59",
+                "reference": "a4d23534bbbaaf61e46db507a16dc48e8e8caa59",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Rklab\\Crud\\Providers\\CrudServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Rklab\\Crud\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "rklab",
+                    "email": "kadzewiczrafal@gmail.com",
+                    "homepage": "https://github.com/RafalKLab"
+                }
+            ],
+            "description": "Package for Laravel 9 with GUI to automatically generate CRUD",
+            "support": {
+                "issues": "https://github.com/RafalKLab/crud/issues",
+                "source": "https://github.com/RafalKLab/crud/tree/1.3.1"
+            },
+            "time": "2023-01-11T12:15:52+00:00"
         },
         {
             "name": "symfony/clock",
