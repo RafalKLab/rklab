@@ -56,4 +56,9 @@ class Rafal extends Controller
     {
         return view('ekimex');
     }
+
+    public function demo5()
+    {
+        return view('demo5');
+    }
 }
