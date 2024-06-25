@@ -16,4 +16,7 @@ Route::get('/demo/4', [\App\Http\Controllers\Rafal::class, 'demo4']);
 
 Route::get('/main', [\App\Http\Controllers\Rafal::class, 'ekimex']);
 
+Route::get('/concept', [\App\Http\Controllers\MainTableController::class, 'index']);
+Route::get('/concept/edit/{id}', [\App\Http\Controllers\MainTableController::class, 'edit'])->name('order.edit');
+
 Route::resource('/generated/purchases', \App\Http\Controllers\Purchase\PurchaseController::class);
