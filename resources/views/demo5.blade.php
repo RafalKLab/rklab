@@ -9,8 +9,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{asset('/demo5/assets/img/favicon.png')}}" rel="icon">
-    <link href="{{asset('/demo5/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+{{--    <link href="{{asset('/demo5/assets/img/favicon.png')}}" rel="icon">--}}
+{{--    <link href="{{asset('/demo5/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">--}}
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -79,7 +79,9 @@
         <img src="{{asset('/demo5/assets/img/forest3.jpg')}}" alt="" data-aos="fade-in" class="">
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <h2>Servicetor BG2</h2>
+            <h2>
+
+            </h2>
             <p>We are <span class="typed" data-typed-items="Plywood provider, Wood Experts, Your Timber Solution, Quality Lumber Specialists">Plywood provider</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
         </div>
 
@@ -91,7 +93,7 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <h2>About</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p> {tekstas 1} Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div><!-- End Section Title -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -101,9 +103,9 @@
                     <img src="{{asset('/demo5/assets/img/image1.png')}}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-8 content">
-                    <h2>UI/UX Designer &amp; Web Developer.</h2>
+                    <h2>Antraštė 1</h2>
                     <p class="fst-italic py-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        {tekstas 2}Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
                     </p>
                     <div class="row">
@@ -125,7 +127,7 @@
                         </div>
                     </div>
                     <p class="py-3">
-                        Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                        {tekstas 3}Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
                         Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
                     </p>
                 </div>
@@ -180,12 +182,88 @@
 
     </section><!-- /Stats Section -->
 
+    <!-- Section Title -->
+    <section id="resume2" class="resume section">
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Veika/Patirtis</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="resume-title">Company Overview</h3>
+
+                <div class="resume-item pb-0">
+                    <h4>WoodPro Ltd.</h4>
+                    <p><em>Leading the industry with over 20 years of experience, WoodPro Ltd. specializes in high-quality, sustainable wood products for a wide range of applications, from construction to custom furniture design.</em></p>
+                    <ul>
+                        <li>123 Forest Lane, Timberville, WA</li>
+                        <li>(555) 123-4567</li>
+                        <li>info@woodpro.com</li>
+                    </ul>
+                </div><!-- End Resume Item -->
+
+                <h3 class="resume-title">Company History</h3>
+                <div class="resume-item">
+                    <h4>Established Roots</h4>
+                    <h5>2000</h5>
+                    <p><em>Timberville, WA</em></p>
+                    <p>Founded in 2000, WoodPro Ltd. started as a small family business and has grown into a leading provider of premium wood products. Our commitment to quality and sustainability has been the cornerstone of our success.</p>
+                </div><!-- End Resume Item -->
+
+                <div class="resume-item">
+                    <h4>Growth & Expansion</h4>
+                    <h5>2010 - Present</h5>
+                    <p><em>Timberville, WA</em></p>
+                    <p>Over the past decade, WoodPro Ltd. has expanded its operations nationwide, investing in state-of-the-art equipment and facilities to meet the increasing demand for eco-friendly and durable wood solutions.</p>
+                </div><!-- End Resume Item -->
+
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="resume-title">Professional Expertise</h3>
+                <div class="resume-item">
+                    <h4>Custom Wood Solutions</h4>
+                    <h5>2020 - Present</h5>
+                    <p><em>WoodPro Ltd., Timberville, WA</em></p>
+                    <ul>
+                        <li>Specializing in bespoke wood products tailored to client specifications, including custom cabinetry, furniture, and architectural elements.</li>
+                        <li>Utilizing advanced woodworking techniques and sustainable practices to ensure top-notch quality and minimal environmental impact.</li>
+                        <li>Providing consultation services to help clients choose the best wood types and finishes for their projects.</li>
+                        <li>Managing projects efficiently with budgets ranging from $5,000 to $100,000, ensuring timely delivery and customer satisfaction.</li>
+                    </ul>
+                </div><!-- End Resume Item -->
+
+                <div class="resume-item">
+                    <h4>Standard Wood Products</h4>
+                    <h5>2005 - 2019</h5>
+                    <p><em>WoodPro Ltd., Timberville, WA</em></p>
+                    <ul>
+                        <li>Produced a wide range of standard wood products including flooring, paneling, and lumber.</li>
+                        <li>Maintained rigorous quality control standards to ensure the durability and aesthetic appeal of all products.</li>
+                        <li>Worked with a diverse clientele, from local contractors to large-scale developers, providing consistent and reliable wood solutions.</li>
+                        <li>Innovated new product lines to keep up with market trends and customer preferences.</li>
+                    </ul>
+                </div><!-- End Resume Item -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </section><!-- /Resume Section -->
+
+
     <!-- Resume Section -->
     <section id="resume" class="resume section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Experience</h2>
+            <h2>Veika/Patirtis</h2>
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div><!-- End Section Title -->
 
@@ -262,8 +340,8 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Portfolio</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <h2>Prekes/Paslaugos</h2>
+            <p> Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div><!-- End Section Title -->
 
         <div class="container">
@@ -437,7 +515,7 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Services</h2>
+            <h2>{Paslaugos 2} Services</h2>
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div><!-- End Section Title -->
 
@@ -505,7 +583,7 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Testimonials</h2>
+            <h2>Atsiliepimai {pavyzdys}</h2>
             <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div><!-- End Section Title -->
 
