@@ -101,37 +101,6 @@
         </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-        <div class="container">
-
-            <div class="row counters">
-
-                <div class="col-lg-3 col-6 text-center">
-                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Clients</p>
-                </div>
-
-                <div class="col-lg-3 col-6 text-center">
-                    <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Projects</p>
-                </div>
-
-                <div class="col-lg-3 col-6 text-center">
-                    <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Hours Of Support</p>
-                </div>
-
-                <div class="col-lg-3 col-6 text-center">
-                    <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Hard Workers</p>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Counts Section -->
-
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
         <div class="container">
@@ -194,85 +163,76 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-8">
                     <div class="section-title" data-aos="fade-right">
                         <h2>PRODUCTS</h2>
-                        <p>Tekstas apie produktus (2-3 sakiniai)</p>
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col-md-6 d-flex align-items-stretch">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                                <small>Reikalinga nuotrauka</small>
-{{--                                <img src="{{ asset('/ekimex/assets/img/ser1.avif') }}" class="img-fluid mb-2" alt="service 1">--}}
-                                <h4>Birch plywood</h4>
-                                <p>Reikalingas tekstas</p>
-                            </div>
-                        </div>
+            </div>
 
-                        <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                                <small>Reikalinga nuotrauka</small>
-{{--                                <img src="{{ asset('/ekimex/assets/img/ser2.avif') }}" class="img-fluid mb-2" alt="service 2">--}}
-                                <h4>Film Faced plywood</h4>
-                                <p>Reikalingas tekstas</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-                                <small>Reikalinga nuotrauka</small>
-{{--                                <img src="{{ asset('/ekimex/assets/img/ser3.avif') }}" class="img-fluid mb-2" alt="service 3">--}}
-                                <h4>Film Faced Colored Plywood</h4>
-                                <p>Reikalingas tekstas</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-                                <small>Reikalinga nuotrauka</small>
-{{--                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">--}}
-                                <h4>Coniferous Plywood Pine/Spruce</h4>
-                                <p>Reikalingas tekstas</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-                                <small>Reikalinga nuotrauka</small>
-{{--                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">--}}
-                                <h4>Glued laminated timber</h4>
-                                <p>Reikalingas tekstas</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-                                <small>Reikalinga nuotrauka</small>
-{{--                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">--}}
-                                <h4>Cross laminated timber</h4>
-                                <p>Reikalingas tekstas</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-                                <small>Reikalinga nuotrauka</small>
-{{--                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">--}}
-                                <h4>Three-layer panels (SWP)</h4>
-                                <p>Reikalingas tekstas</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-                                <small>Reikalinga nuotrauka</small>
-{{--                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">--}}
-                                <h4>Bed slats</h4>
-                                <p>Reikalingas tekstas</p>
-                            </div>
-                        </div>
+            <div class="row justify-content-center">
+                <!-- Product 1 -->
+                <div class="col-md-3 d-flex align-items-stretch mt-4">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                        <small>Reikalinga nuotrauka</small>
+                        <h4>Birch plywood</h4>
+                        <p>Reikalingas tekstas</p>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-md-3 d-flex align-items-stretch mt-4">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                        <small>Reikalinga nuotrauka</small>
+                        <h4>Film Faced plywood</h4>
+                        <p>Reikalingas tekstas</p>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-md-3 d-flex align-items-stretch mt-4">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                        <small>Reikalinga nuotrauka</small>
+                        <h4>Film Faced Colored Plywood</h4>
+                        <p>Reikalingas tekstas</p>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-md-3 d-flex align-items-stretch mt-4">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                        <small>Reikalinga nuotrauka</small>
+                        <h4>Coniferous Plywood Pine/Spruce</h4>
+                        <p>Reikalingas tekstas</p>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-md-3 d-flex align-items-stretch mt-4">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                        <small>Reikalinga nuotrauka</small>
+                        <h4>Glued laminated timber</h4>
+                        <p>Reikalingas tekstas</p>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-md-3 d-flex align-items-stretch mt-4">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                        <small>Reikalinga nuotrauka</small>
+                        <h4>Cross laminated timber</h4>
+                        <p>Reikalingas tekstas</p>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="col-md-3 d-flex align-items-stretch mt-4">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                        <small>Reikalinga nuotrauka</small>
+                        <h4>Three-layer panels (SWP)</h4>
+                        <p>Reikalingas tekstas</p>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="col-md-3 d-flex align-items-stretch mt-4">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                        <small>Reikalinga nuotrauka</small>
+                        <h4>Bed slats</h4>
+                        <p>Reikalingas tekstas</p>
                     </div>
                 </div>
             </div>
