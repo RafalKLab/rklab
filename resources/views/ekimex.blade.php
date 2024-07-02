@@ -44,18 +44,18 @@
     <div class="container">
         <div class="header-container d-flex align-items-center justify-content-between">
             <div class="logo">
-                <h1 class="text-light"><a href="index.html"><span>Ekimex OU</span></a></h1>
+{{--                <h1 class="text-light"><a href="index.html"><span>Ekimex OU</span></a></h1>--}}
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                <a href="#"><img src="{{asset('/ekimex/assets/img/Monochrome on transparent.png')}}" alt="" class="img-fluid"></a>
             </div>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                    <li><a class="getstarted scrollto" href="#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+                    <li><a class="nav-link scrollto" href="#about">ABOUT US</a></li>
+                    <li><a class="nav-link scrollto" href="#services">PRODUCTS</a></li>
+{{--                    <li><a class="nav-link scrollto" href="#team">Team</a></li>--}}
+                    <li><a class="scrollto" href="#contact">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -231,44 +231,83 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="section-title" data-aos="fade-right">
-                        <h2>Services</h2>
-                        <p>Tekstas apie paslaugas (2-3 sakiniai)</p>
+                        <h2>PRODUCTS</h2>
+                        <p>Tekstas apie produktus (2-3 sakiniai)</p>
                     </div>
                 </div>
                 <div class="col-lg-8">
                     <div class="row">
                         <div class="col-md-6 d-flex align-items-stretch">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                                <img src="{{ asset('/ekimex/assets/img/ser1.avif') }}" class="img-fluid mb-2" alt="service 1">
-                                <h4>Wholesale and Retail Trade of Wood Products</h4>
-                                <p>Discover the wide range of wood products available for wholesale and retail trade. Collaborating with construction, manufacturing, and trading companies, as well as associations, architects, interior designers, and private individuals.</p>
+                                <small>Reikalinga nuotrauka</small>
+{{--                                <img src="{{ asset('/ekimex/assets/img/ser1.avif') }}" class="img-fluid mb-2" alt="service 1">--}}
+                                <h4>Birch plywood</h4>
+                                <p>Reikalingas tekstas</p>
                             </div>
                         </div>
 
                         <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                                <img src="{{ asset('/ekimex/assets/img/ser2.avif') }}" class="img-fluid mb-2" alt="service 2">
-                                <h4>Collaborating with ekimex for Your Wood Needs</h4>
-                                <p>Discover the benefits of collaborating with ekimex for all your wood product requirements. We work closely with construction, manufacturing, and trading companies, as well as associations, architects, interior designers, and private individuals.</p>
+                                <small>Reikalinga nuotrauka</small>
+{{--                                <img src="{{ asset('/ekimex/assets/img/ser2.avif') }}" class="img-fluid mb-2" alt="service 2">--}}
+                                <h4>Film Faced plywood</h4>
+                                <p>Reikalingas tekstas</p>
                             </div>
                         </div>
 
                         <div class="col-md-6 d-flex align-items-stretch mt-4">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-                                <img src="{{ asset('/ekimex/assets/img/ser3.avif') }}" class="img-fluid mb-2" alt="service 3">
-                                <h4>Efficient and reliable distribution of wood products</h4>
-                                <p>Paslaugos aprašymas (2-3 sakiniai)</p>
+                                <small>Reikalinga nuotrauka</small>
+{{--                                <img src="{{ asset('/ekimex/assets/img/ser3.avif') }}" class="img-fluid mb-2" alt="service 3">--}}
+                                <h4>Film Faced Colored Plywood</h4>
+                                <p>Reikalingas tekstas</p>
                             </div>
                         </div>
 
                         <div class="col-md-6 d-flex align-items-stretch mt-4">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">
-                                <h4>Extensive range of wood products to cater to various industries.</h4>
-                                <p>Paslaugos aprašymas (2-3 sakiniai)</p>
+                                <small>Reikalinga nuotrauka</small>
+{{--                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">--}}
+                                <h4>Coniferous Plywood Pine/Spruce</h4>
+                                <p>Reikalingas tekstas</p>
                             </div>
                         </div>
 
+                        <div class="col-md-6 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <small>Reikalinga nuotrauka</small>
+{{--                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">--}}
+                                <h4>Glued laminated timber</h4>
+                                <p>Reikalingas tekstas</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <small>Reikalinga nuotrauka</small>
+{{--                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">--}}
+                                <h4>Cross laminated timber</h4>
+                                <p>Reikalingas tekstas</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <small>Reikalinga nuotrauka</small>
+{{--                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">--}}
+                                <h4>Three-layer panels (SWP)</h4>
+                                <p>Reikalingas tekstas</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <small>Reikalinga nuotrauka</small>
+{{--                                <img src="{{ asset('/ekimex/assets/img/ser4.avif') }}" class="img-fluid mb-2" alt="service 4">--}}
+                                <h4>Bed slats</h4>
+                                <p>Reikalingas tekstas</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
