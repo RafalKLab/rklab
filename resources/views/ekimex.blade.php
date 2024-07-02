@@ -46,7 +46,7 @@
             <div class="logo">
 {{--                <h1 class="text-light"><a href="index.html"><span>Ekimex OU</span></a></h1>--}}
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <a href="#"><img src="{{asset('/ekimex/assets/img/Monochrome on transparent.png')}}" alt="" class="img-fluid"></a>
+                <a class="scrollto" href="#hero"><img src="{{asset('/ekimex/assets/img/Monochrome on transparent.png')}}" alt="" class="img-fluid"></a>
             </div>
 
             <nav id="navbar" class="navbar">
@@ -54,7 +54,6 @@
                     <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
                     <li><a class="nav-link scrollto" href="#about">ABOUT US</a></li>
                     <li><a class="nav-link scrollto" href="#services">PRODUCTS</a></li>
-{{--                    <li><a class="nav-link scrollto" href="#team">Team</a></li>--}}
                     <li><a class="scrollto" href="#contact">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -74,40 +73,6 @@
 </section><!-- End Hero -->
 
 <main id="main">
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
-                    Skiltis apie klientus / partnerius
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="{{ asset('/ekimex/assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
-                    <img src="{{ asset('/ekimex/assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="{{ asset('/ekimex/assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
-                    <img src="{{ asset('/ekimex/assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
-                    <img src="{{ asset('/ekimex/assets/img/clients/client-6.png') }}" class="img-fluid" alt="">
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Clients Section -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -558,95 +523,6 @@
 {{--        </div>--}}
 {{--    </section><!-- End Testimonials Section -->--}}
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="section-title" data-aos="fade-right">
-                        <h2>Skiltis apie komandą <br> <small> <i>(ar reikalinga ?)</i></small></h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="row">
-
-                        <div class="col-lg-6">
-                            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="pic"><img src="{{'/ekimex/assets/img/team/team-1.jpg'}}" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
-                                    <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 mt-4 mt-lg-0">
-                            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                                <div class="pic"><img src="{{'/ekimex/assets/img/team/team-2.jpg'}}" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
-                                    <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 mt-4">
-                            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                                <div class="pic"><img src="{{'/ekimex/assets/img/team/team-3.jpg'}}" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
-                                    <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 mt-4">
-                            <div class="member" data-aos="zoom-in" data-aos-delay="400">
-                                <div class="pic"><img src="{{'/ekimex/assets/img/team/team-4.jpg'}}" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
-                                    <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </section><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -712,9 +588,9 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#hero">HOME</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#about">ABOUT US</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">PRODUCTS</a></li>
                     </ul>
                 </div>
             </div>
