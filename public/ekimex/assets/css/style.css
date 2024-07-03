@@ -700,10 +700,16 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 40px 20px;
+  /*padding: 40px 20px;*/
   transition: all ease-in-out 0.3s;
   background: #fff;
     width: 100% !important;
+}
+
+.services .icon-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .services .icon-box .icon {
@@ -1450,3 +1456,4 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
