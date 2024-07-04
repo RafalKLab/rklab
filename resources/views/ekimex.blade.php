@@ -296,7 +296,14 @@
 <!-- ======= Footer ======= -->
 <footer id="footer">
 
-    <div class="footer-top">
+    <div class="footer-top" style="background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('{{asset('/ekimex/assets/img/hero-bg.jpg')}}');
+     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;">
         <div class="container">
             <div class="row">
 
