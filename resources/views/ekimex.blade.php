@@ -85,7 +85,8 @@
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
                     <p>
-                        Tekstas apie įmonę (ilgesnis 2-3 sakiniai)
+                        We are a leading wholesale and retail trade company specializing in high-quality wood products. With a commitment to excellence and customer satisfaction, we provide a diverse range of timber and wood-related materials to meet the needs of various industries and individual customers.
+
                     </p>
                     <ul>
                         <li><i class="ri-check-double-line"></i> 1 Punktas apie įmonę</li>
@@ -93,7 +94,6 @@
                         <li><i class="ri-check-double-line"></i> 3 Punktas apie įmonę</li>
                     </ul>
                     <p class="fst-italic">
-                        Tekstas apie įmonę (Išvada/motyvacija)
                     </p>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                     <div class="content">
                         <h3>Why Choose Ekimex for your business?</h3>
                         <p>
-                            Tekstas apie privalumus ir pan (ilgesnis 3-4 sakiniai)
+                            As a premier wholesale and retail trade company, we specialize in offering an extensive selection of premium wood products. Our dedication to quality and service ensures that we meet the diverse needs of both industry professionals and individual customers, delivering superior timber and wood materials for every project.
                         </p>
                     </div>
                 </div>
@@ -120,22 +120,22 @@
                             <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="icon-box mt-4 mt-xl-0">
                                     <i class="bx bx-receipt"></i>
-                                    <h4>Įmonės vertybės 1</h4>
-                                    <p>Sakinys apie įmonės vertybės (1-2 sakiniai)</p>
+                                    <h4>Commitment to Quality</h4>
+                                    <p>We prioritize excellence in every product and service, ensuring our wood materials meet the highest standards for durability and aesthetic appeal.</p>
                                 </div>
                             </div>
                             <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
                                 <div class="icon-box mt-4 mt-xl-0">
                                     <i class="bx bx-cube-alt"></i>
-                                    <h4>Įmonės vertybės 2</h4>
-                                    <p>Sakinys apie įmonės vertybės (1-2 sakiniai)</p>
+                                    <h4>Customer Satisfaction</h4>
+                                    <p>We strive to exceed customer expectations through personalized service, attentive support, and reliable delivery, building long-term relationships based on trust and satisfaction.</p>
                                 </div>
                             </div>
                             <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
                                 <div class="icon-box mt-4 mt-xl-0">
                                     <i class="bx bx-images"></i>
-                                    <h4>Įmonės vertybės 3</h4>
-                                    <p>Sakinys apie įmonės vertybės (1-2 sakiniai)</p>
+                                    <h4>Sustainability</h4>
+                                    <p>We are dedicated to responsible sourcing and environmental stewardship, ensuring that our wood products come from sustainably managed forests to preserve resources for future generations.</p>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box-product-image">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG" alt="">
+                            <img src="{{ asset('/ekimex/assets/img/Birch plywood.jpg') }}" alt="">
                         </div>
                         <h5 class="mt-2">Birch plywood</h5>
                     </div>
@@ -183,7 +183,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                         <div class="icon-box-product-image">
-                            <img src="https://pgwood.lv/wp-content/uploads/2016/10/jpg_ENGINEERED-FLOORING-500x350.jpg" alt="">
+                            <img src="{{ asset('/ekimex/assets/img/Film Faced Plywood.jpg') }}" alt="">
                         </div>
                         <h5 class="mt-2">Film Faced plywood</h5>
                     </div>
@@ -192,7 +192,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon-box-product-image">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG" alt="">
+                            <img src="{{ asset('/ekimex/assets/img/Film Faced Colored Plywood2.jpg') }}" alt="">
                         </div>
                         <h5 class="mt-2">Film Faced Colored Plywood</h5>
                     </div>
@@ -201,7 +201,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                         <div class="icon-box-product-image">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG" alt="">
+                            <img src="{{ asset('/ekimex/assets/img/Coniferous Plywood PineSpruce.jpg') }}" alt="">
                         </div>
                         <h5 class="mt-2">Coniferous Plywood Pine/Spruce</h5>
                     </div>
@@ -210,7 +210,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box-product-image">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG" alt="">
+                            <img src="{{ asset('/ekimex/assets/img/glued laminated timber.jpg') }}" alt="">
                         </div>
                         <h5 class="mt-2">Glued laminated timber</h5>
                     </div>
@@ -219,7 +219,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                         <div class="icon-box-product-image">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG" alt="">
+                            <img src="{{ asset('/ekimex/assets/img/cross laminated timber.jpg') }}" alt="">
                         </div>
                         <h5 class="mt-2">Cross laminated timber</h5>
                     </div>
@@ -228,7 +228,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon-box-product-image">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG" alt="">
+                            <img src="{{ asset('/ekimex/assets/img/Three-layer panels (SWP).jpg') }}" alt="">
                         </div>
                         <h5 class="mt-2">Three-layer panels (SWP)</h5>
                     </div>
@@ -237,7 +237,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                         <div class="icon-box-product-image">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Spruce_plywood.JPG" alt="">
+                            <img src="{{ asset('/ekimex/assets/img/Bed slats.jpg') }}" alt="">
                         </div>
                         <h5 class="mt-2">Bed slats</h5>
                     </div>
@@ -255,16 +255,18 @@
                 <div class="col-lg-4" data-aos="fade-right">
                     <div class="section-title">
                         <h2>Contact</h2>
-                        <p>Tekstas apie kontaktus (ilgesnis 3-4 sakiniai)</p>
+                        <p></p>
                     </div>
                 </div>
 
                 <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
-                    <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2029.01449051709!2d24.75814017770205!3d59.432832874664584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692935f7e673a63%3A0xc9434eaf798bee02!2sTornim%C3%A4e%207%2C%2010145%20Tallinn%2C%20Estija!5e0!3m2!1slt!2slt!4v1720096550798!5m2!1slt!2slt" frameborder="0" allowfullscreen></iframe>
                     <div class="info mt-4">
                         <i class="bi bi-geo-alt"></i>
                         <h4>Location:</h4>
-                        <p>Pilnas adresas</p>
+                        <p>Harju maakond, Tallinn, Kesklinna linnaosa, Tornimäe tn 7-26,
+                            10145,
+                            ESTONIA</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-6 mt-4">
@@ -301,9 +303,9 @@
                 <div class="col-lg-3 col-md-6 footer-contact">
                     <h3>Ekimex OU</h3>
                     <p>
-                        Adresas / gatve <br>
-                        Miestas <br>
-                        Šalis <br><br>
+                        Harju maakond, Kesklinna linnaosa, <br>Tornimäe tn 7-26, 10145<br>
+                        Tallinn <br>
+                        ESTONIA <br><br>
                         <strong>Phone:</strong> +1 1234567890<br>
                         <strong>Email:</strong> info@ekimex.com<br>
                     </p>
@@ -317,33 +319,20 @@
                         <li><i class="bx bx-chevron-right"></i> <a href="#services">PRODUCTS</a></li>
                     </ul>
                 </div>
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Ekimex OU</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container d-md-flex py-4">
-
-        <div class="me-md-auto text-center text-md-start">
-            <div class="copyright">
-                &copy; Copyright <strong><span>Ekimex OU</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-        </div>
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            Jei turite socialinių tinklų, mes juos įtrauksime
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-    </div>
 </footer><!-- End Footer -->
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
