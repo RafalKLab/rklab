@@ -287,21 +287,21 @@
                         <div class="row">
                             <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="icon-box mt-4 mt-xl-0">
-                                    <i class="bx bx-receipt"></i>
+                                    <i class="bx bx-check"></i>
                                     <h4>Commitment to Quality</h4>
                                     <p>We prioritize excellence in every product and service, ensuring our wood materials meet the highest standards for durability and aesthetic appeal.</p>
                                 </div>
                             </div>
                             <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
                                 <div class="icon-box mt-4 mt-xl-0">
-                                    <i class="bx bx-cube-alt"></i>
+                                    <i class="bx bxs-user"></i>
                                     <h4>Customer Satisfaction</h4>
                                     <p>We strive to exceed customer expectations through personalized service, attentive support, and reliable delivery, building long-term relationships based on trust and satisfaction.</p>
                                 </div>
                             </div>
                             <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
                                 <div class="icon-box mt-4 mt-xl-0">
-                                    <i class="bx bx-images"></i>
+                                    <i class="bx bxs-tree-alt"></i>
                                     <h4>Sustainability</h4>
                                     <p>We are dedicated to responsible sourcing and environmental stewardship, ensuring that our wood products come from sustainably managed forests to preserve resources for future generations.</p>
                                 </div>
