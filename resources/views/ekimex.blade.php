@@ -35,6 +35,21 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
+
+    <style>
+        #footer .footer-top {
+            padding: 60px 0 30px 0;
+            background: linear-gradient(
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)
+            ), url('{{ asset("/ekimex/assets/img/hero-bg.jpg") }}'); /* Using Blade syntax here */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -296,14 +311,7 @@
 <!-- ======= Footer ======= -->
 <footer id="footer">
 
-    <div class="footer-top" style="background: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ), url('{{asset('/ekimex/assets/img/hero-bg.jpg')}}');
-     background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;">
+    <div class="footer-top">
         <div class="container">
             <div class="row">
 
