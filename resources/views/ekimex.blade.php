@@ -37,6 +37,12 @@
     ======================================================== -->
 
     <style>
+        #footer {
+            color: #fff;
+            font-size: 14px;
+            background: #f1f0f2;
+        }
+
         #footer .footer-top {
             padding: 60px 0 30px 0;
             background: linear-gradient(
