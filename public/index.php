@@ -149,7 +149,7 @@
         <div class="container">
 
             <div class="text-center" data-aos="zoom-in">
-                <h3>Building with Nature, Building with Ekimex</h3>
+                <h3>Ekimex - The Wood Experts for Your Business</h3>
             </div>
 
         </div>
@@ -173,7 +173,7 @@
                     <div class="col-md-3 d-flex align-items-stretch mt-4">
                         <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                             <div class="icon-box-product-image">
-                                <img src="./ekimex/assets/img/Birch plywood.jpg" alt="">
+                                <img src="./ekimex/assets/img/Birch_plywood.webp" alt="">
                             </div>
                             <a href="./birch-plywood.html">
                               <h5 class="mt-2">Birch plywood</h5>
@@ -186,7 +186,7 @@
                     <div class="col-md-3 d-flex align-items-stretch mt-4">
                         <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                             <div class="icon-box-product-image">
-                                <img src="./ekimex/assets/img/Film Faced Plywood.jpg" alt="">
+                                <img src="./ekimex/assets/img/Film_faced_plywood.jpg" alt="">
                             </div>
                             <a href="./film-faced-plywood.html">
                                 <h5 class="mt-2">Film Faced plywood</h5>
@@ -198,7 +198,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon-box-product-image">
-                            <img src="./ekimex/assets/img/Film Faced Colored Plywood2.jpg" alt="">
+                            <img src="./ekimex/assets/img/Colored_plywood.jpg" alt="">
                         </div>
                         <a href="./film-faced-colored-plywood.html">
                             <h5 class="mt-2">Film Faced Colored Plywood</h5>
@@ -210,7 +210,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                         <div class="icon-box-product-image">
-                            <img src="./ekimex/assets/img/Coniferous Plywood PineSpruce.jpg" alt="">
+                            <img src="./ekimex/assets/img/Pine_plywood.jpg" alt="">
                         </div>
                         <a href="./coniferous-plywood-pine.html">
                             <h5 class="mt-2">Coniferous Plywood Pine/Spruce</h5>
@@ -222,7 +222,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box-product-image">
-                            <img src="./ekimex/assets/img/glued laminated timber.jpg" alt="">
+                            <img src="./ekimex/assets/img/Glulam.jpeg" alt="">
                         </div>
                         <a href="./glued-laminated-timber.html">
                             <h5 class="mt-2">Glued laminated timber</h5>
@@ -234,7 +234,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                         <div class="icon-box-product-image">
-                            <img src="./ekimex/assets/img/cross laminated timber.jpg" alt="">
+                            <img src="./ekimex/assets/img/CLT.jpg" alt="">
                         </div>
                         <a href="./cross-laminated-timber.html">
                             <h5 class="mt-2">Cross laminated timber</h5>
@@ -246,7 +246,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon-box-product-image">
-                            <img src="./ekimex/assets/img/Three-layer panels (SWP).jpg" alt="">
+                            <img src="./ekimex/assets/img/SWP.webp" alt="">
                         </div>
                         <a href="./three-layer-panels.html">
                             <h5 class="mt-2">Three-layer panels (SWP)</h5>
@@ -257,7 +257,7 @@
                 <div class="col-md-3 d-flex align-items-stretch mt-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                         <div class="icon-box-product-image">
-                            <img src="./ekimex/assets/img/Bed slats.jpg" alt="">
+                            <img src="./ekimex/assets/img/BED_SLATS.jpg" alt="">
                         </div>
                         <a href="./bed-slats.html">
                             <h5 class="mt-2">Bed slats</h5>
